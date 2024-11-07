@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Web</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+</head>
+
+<body class="fondo">
+
+    <header>
+        <div class="miTexto">
+        
+            <h1>Mi página web</h1>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Me llamo Francisco Sequeira, estoy aprendiendo nuevas herramientas 
+                en tecnología para poder trabajar como programador en un breve tiempo.</p>
+        </section>
+
+        <hr/>
+
+        <section>
+
+            <h2>Mis tecnologías favoritas</h2>
+
+            <div id="cards-container">
+
+                <div class="cards">
+                    <h4 class="titleCards">HTML</h4>
+                    <img class="fotoCard" src="./images/img/html-5.svg" alt="fotoCard">
+                </div>
+                <div class="cards">
+                    <h4 class="titleCards">CSS</h4>
+                    <img class="fotoCard" src="./images/img/css.svg" alt="fotoCard">
+                </div>
+                <div class="cards">
+                    <h4 class="titleCards">JavaScript</h4>
+                    <img class="fotoCard" src="./images/img/javascript.svg" alt="fotoCard">
+                </div>
+
+            </div>
+        </section>
+
+        <hr/>
+
+        <section>
+            <h2>Mis actividades favoritas</h2>
+
+            <form id="form">
+                <div>
+                    <input type="text" id="title" placeholder="Título" />
+                </div>
+                <div>
+                    <input type="text" id="description" placeholder="Descripción" />
+                </div>
+                <div>
+                    <input type="text" id="image" placeholder="URL de la imagen" />
+                </div>
+                <button type="button" id="addButton">Enviar</button>
+            </form>
+            
+            <div id="cards-container-dom"></div>
+
+        </section>
+    </main>
+
+    <script src="./scripts/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* reset.css */
+
+/* Elimina los márgenes, padding y bordes en todos los elementos para uniformidad */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remueve decoraciones en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Quita el estilo de las listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Hace que las imágenes respondan al contenedor */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Desactiva el estilo del borde de los botones en algunos navegadores */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Define el estilo base para inputs y textareas */
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* Resetea tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Elimina padding por defecto en el cuerpo */
+body {
+  line-height: 1;
+  font-family: sans-serif;
+}
+
