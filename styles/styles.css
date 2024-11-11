@@ -5,8 +5,21 @@
     font-size: 3em;
     color:blueviolet;
 }
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
 h2{
     background-color: blue;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+button{
+    background-color: blueviolet;
 }
 /* #principal{
     color: blue;
